@@ -1,6 +1,7 @@
 ﻿using ICSharpCode.SharpZipLib.Zip;
 using SharpDX.Toolkit.Content;
 using System;
+using System.IO;
 
 namespace SharpDX.Extended
 {
@@ -26,7 +27,11 @@ namespace SharpDX.Extended
             if (entry == null)
                 throw new AssetNotFoundException(assetName);
 
-            return zipFile.GetInputStream(entry);
+            var ms = new MemoryStream();
+            zipFile.GetInputStream(entry).CopyTo(ms);
+            ms.Seek(0, SeekOrigin.Begin);
+
+            return ms;
         }
 
         string ConvertPath(string path)
