@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tktex", "tktex\tktex.csproj", "{03C6B223-F143-4655-8694-CF766894B744}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDX.Extended", "SharpDX.Extended\SharpDX.Extended.csproj", "{8622B919-C533-4887-8377-E459DC21D4B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{03C6B223-F143-4655-8694-CF766894B744}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03C6B223-F143-4655-8694-CF766894B744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03C6B223-F143-4655-8694-CF766894B744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8622B919-C533-4887-8377-E459DC21D4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8622B919-C533-4887-8377-E459DC21D4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8622B919-C533-4887-8377-E459DC21D4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8622B919-C533-4887-8377-E459DC21D4B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
